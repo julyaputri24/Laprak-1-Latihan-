@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Formulir Pendaftaran</h1>
+
+    <form>
+      <div class="mb-3">
+        <label for="nama" class="form-label">Nama Lengkap</label>
+        <input type="text" class="form-control" id="nama">
+      </div>
+
+      <div class="mb-3">
+        <label for="prodi" class="form-label">Program Studi</label>
+        <select class="form-select" id="prodi">
+          <option selected>Pilih Program Studi</option>
+          <option>PTIK</option>
+          <option>Teknik Komputer</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="pesan" class="form-label">Pesan</label>
+        <textarea class="form-control" id="pesan" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Kirim</button>
+    </form>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
